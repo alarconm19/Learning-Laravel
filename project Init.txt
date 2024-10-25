@@ -2,3 +2,25 @@ composer require laravel/breeze --dev
 php artisan breeze:install
 php artisan migrate
 php artisan serve
+
+
+para instalar desde un clone:
+composer install
+npm install
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+npm run build
+php artisan serve
+
+para instalar desde cero laravel & breeze:
+composer create-project laravel/laravel miProyecto
+cd miProyecto
+composer require laravel/breeze --dev
+// probar
+npm install
+npm run dev
+//
+php artisan breeze:install
+php artisan migrate
+php artisan serve
