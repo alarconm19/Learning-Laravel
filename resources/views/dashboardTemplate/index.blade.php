@@ -1,25 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
 
-    <title>Dashboard - SB Admin</title>
+    <title>Rebbit</title>
 
     <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
 
-    @vite(['resources/dashboardTemplate/css/styles.css', 'resources/dashboardTemplate/js/scripts.js', 'resources/dashboardTemplate/assets/demo/chart-area-demo.js', 'resources/dashboardTemplate/assets/demo/chart-bar-demo.js', 'resources/dashboardTemplate/js/datatables-simple-demo.js'])
+    @vite(['resources/dashboardTemplate/css/styles.css',
+        'resources/dashboardTemplate/js/scripts.js',
+        'resources/dashboardTemplate/assets/demo/chart-area-demo.js',
+        'resources/dashboardTemplate/assets/demo/chart-bar-demo.js',
+        'resources/dashboardTemplate/js/datatables-simple-demo.js'])
 </head>
 
 <body class="sb-nav-fixed">
     <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
         <!-- Navbar Brand-->
-        <a class="navbar-brand ps-3" href="index.html">Start Bootstrap</a>
+        <a class="navbar-brand ps-3" href="index.html">Rebbit</a>
         <!-- Sidebar Toggle-->
         <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i
                 class="fas fa-bars"></i></button>
@@ -130,23 +132,6 @@
         </div>
         <div id="layoutSidenav_content">
             <main>
-                <div style="width: 50%; length: 50%; margin: 0 auto;" class="py-4">
-                    <x-tarjeta class="mb-4">
-                        <x-slot name="card_header">
-                            <i class="fas fa-info-circle me-1"></i>
-                            Card Header
-                        </x-slot>
-                        Mensaje
-                        <x-slot name="card_footer">
-                            <x-primary-button>
-                                Guardar
-                            </x-primary-button>
-                            <x-secondary-button>
-                                Cancelar
-                            </x-secondary-button>
-                        </x-slot>
-                    </x-tarjeta>
-                </div>
                 <div class="container-fluid px-4">
                     <h1 class="mt-4">Dashboard</h1>
                     <ol class="breadcrumb mb-4">
